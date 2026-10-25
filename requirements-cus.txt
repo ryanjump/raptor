@@ -1,6 +1,6 @@
 # Keep the official RAPTOR dependencies and add compatibility constraints.
 # Install with: uv pip install --python .venv/bin/python -r requirements-cus.txt
--r requirements.txt
+-r requirements.txt # 即包括了旧的requirements.txt里的所有依赖
 
 # openai 1.3.3 still passes the proxies argument removed by httpx 0.28.
 httpx==0.27.2
